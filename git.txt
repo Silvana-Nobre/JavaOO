@@ -1,0 +1,15 @@
+echo "# planet-git" >> README.md
+git init
+git config --global user.email "ricardo.moreira@capgemini.com"
+git config --global user.name "ricardomoreiracap"
+git config --global user.password
+git add README.md
+git add .
+git commit -m "first commit"
+
+git remote add origin https://github.com/ricardomoreiracap/JavaOO.git
+git push origin master
+git clone https://github.com/ricardomoreiracap/JavaOO.git JavaOO
+git pull https://github.com/ricardomoreiracap/JavaOO.git
+
+
