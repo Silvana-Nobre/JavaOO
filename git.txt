@@ -1,7 +1,7 @@
 echo "# planet-git" >> README.md
 git init
-git config --global user.email "ricardo.moreira@capgemini.com"
-git config --global user.name "ricardomoreiracap"
+git config --global user.email
+git config --global user.name
 git config --global user.password
 git add README.md
 git add .
